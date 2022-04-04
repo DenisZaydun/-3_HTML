@@ -1,0 +1,159 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left_block{
+    float: left;
+    width: 20%;
+    height: 100vh;
+    background-color: #232C39;
+}
+
+.top_box{
+    height: 225px;
+    width: 100%;
+}
+
+.photo_box{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+img{
+    position: relative;
+    left: 20px;
+    height: 105%;
+}
+
+.short_info{
+    box-shadow: 0 -6px 6px rgba(0, 0, 0, .25);
+    color: white;
+    border-top: 1px solid transparent;
+}
+
+.short_info h1{
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+ul{
+    line-height: 25px;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.short_info hr{
+    width: 90%;
+    border-top: none;
+}
+
+.right_box{
+    float: left;
+    width: 80%;
+    height: 100vh;
+    overflow-y: scroll;
+    padding-left: 40px;
+}
+
+.right_box h1{
+    color: #0C3979;
+    margin-bottom: 0;
+}
+
+.prof{
+    font-size: 25px;
+    color: #343151;
+}
+
+.subject .hr1, .hr2, h2, .hr3{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.hr1 {
+    min-width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.subject{
+    margin-top: 30px;
+}
+
+.subject h2{
+    color: #0C3979;
+    font-weight: 300;
+}
+
+.with_date h3, .date1, .date2, .date3{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.with_date .date1{
+    width: 80%;
+    text-align: right;
+    color: gray;
+    font-weight: 600;
+}
+
+p{
+    margin-top: 5px;
+    margin-right: 30px;
+    font-size: 17px;
+}
+
+.hr2 {
+    width: 88%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.with_date .date2{
+    width: 45%;
+    text-align: right;
+    color: gray;
+    font-weight: 600;
+}
+
+.with_date .date3{
+    width: 89%;
+    text-align: right;
+    color: gray;
+    font-weight: 600;
+}
+
+.hr3 {
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
